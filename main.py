@@ -1,5 +1,4 @@
 import text_processor as pro
-import another_lib as an
 
 input_text = input("Введіть текст: ")
 
