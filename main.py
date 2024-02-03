@@ -1,16 +1,19 @@
 import text_processor as pro
+import another_lib as an
 
-text_without = input("Введіть текст: ")
-without = pro.remove_punctuation(text_without)
-print(without)
+input_text = input("Введіть текст: ")
+
+without = pro.remove_punctuation(input_text)
+print("Текст без пунктуації:", without)    
     
-text_lower = input("Введіть текст: ")
-lower = pro.convert_to_lowercase(text_lower)
-print(lower)
+lower = pro.convert_to_lowercase(input_text)
+print("Текст у нижньому регістрі:", lower)
     
-text_into_list = input("Введіть текст: ")   
-text_list = pro.tokenize_text(text_into_list)
-print(text_list)
+text_list = pro.tokenize_text(input_text)
+print("Список слів:", text_list)
+
+sentences_list = pro.sentence_tokenize(input_text)
+print("Список речень:", sentences_list)
     
     
     
