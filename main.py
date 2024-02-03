@@ -14,7 +14,12 @@ print("Список слів:", text_list)
 sentences_list = pro.sentence_tokenize(input_text)
 print("Список речень:", sentences_list)
     
+words_count = pro.word_count(input_text)
+print("Кількість слів: ", words_count)    
     
-    
-    
+characters_count = pro.character_count(input_text)
+print("Кількість слів: ", characters_count)    
+
+unique = pro.unique_words(input_text)
+print("Кількість унікальних слів: ", unique)
     
