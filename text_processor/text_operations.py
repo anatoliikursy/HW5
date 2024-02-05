@@ -10,11 +10,3 @@ def convert_to_lowercase(text):    #-- переводить текст у ниж
 def tokenize_text(text):  #-- переводить текст у список слів          
     words = text.split()
     return words
-
-
-
-
-
-
-# average_word_length(text) -- рахує середню довжину слів у тексті
-# find_occurrences(text, keyword) -- рахує кількість разів появи слова у тексті
