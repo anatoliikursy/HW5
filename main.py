@@ -22,4 +22,10 @@ print("Кількість слів: ", characters_count)
 
 unique = pro.unique_words(input_text)
 print("Кількість унікальних слів: ", unique)
-    
+
+average_words_length  = pro.average_word_length(input_text)
+print("Cередня довжина слів: ", average_words_length)
+
+unique_word_count = pro.count_unique_words(input_text)
+print("Кількість унікальних слів у тексті: ", unique_word_count)
+
